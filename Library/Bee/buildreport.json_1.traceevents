@@ -1,0 +1,485 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1707546552019402, "dur": 1289468, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707546552019600, "dur": 16139, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707546552035741, "dur": 31786, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707546552067529, "dur": 491724, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707546552559254, "dur": 735180, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707546553294436, "dur": 14433, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707546553309165, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1707546552422820, "dur": 118988, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707546552423661, "dur": 31855, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707546552527237, "dur": 3360, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707546552530599, "dur": 11201, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707546552531191, "dur": 10194, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707546552545547, "dur": 1044, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707546552544869, "dur": 1742, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707546553309242, "dur": 285, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1707546552591005, "dur":690, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546552591705, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1707546552591766, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1707546552591776, "dur":382, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1707546552592174, "dur":350, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546552592524, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287588, "dur":112, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287700, "dur":208, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287908, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287913, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287939, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287943, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287950, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287952, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287956, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287957, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287962, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287963, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287967, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287968, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287983, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287984, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287987, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287988, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287993, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287994, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553287998, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553288000, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553288005, "dur":19, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553288024, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553288028, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553288045, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553288060, "dur":598, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1707546552592454, "dur":87, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552592556, "dur":3197, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552595758, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1707546552595765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552596294, "dur":136, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1707546552596431, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1707546552596444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552596500, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1707546552598068, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1707546552598200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552598451, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1707546552599339, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1707546552599425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552599429, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1707546552600631, "dur":4226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1707546552604860, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552604867, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1707546552606016, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1707546552606139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552606242, "dur":4376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1707546552610691, "dur":40927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546552651620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552651624, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546552653298, "dur":62812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546552716116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552716124, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546552716811, "dur":39986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546552756807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552756812, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546552757308, "dur":50417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546552807729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552807735, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546552808487, "dur":34356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546552842848, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546552842856, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546552843473, "dur":156791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546553000271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546553000279, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546553000983, "dur":115922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546553116908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707546553116913, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707546553117440, "dur":170181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552592818, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552592819, "dur":2962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552595781, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1707546552595944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552596368, "dur":2542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1707546552598990, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1707546552599118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552599123, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1707546552600085, "dur":25651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552625742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552625784, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552629363, "dur":29676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552659044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552659052, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552660154, "dur":33894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552694054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552694063, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552694715, "dur":67600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552762321, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552762330, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552763051, "dur":37655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552800710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552800717, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552801298, "dur":64098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552865402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552865410, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552866060, "dur":56683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552922748, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546552922757, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546552923397, "dur":121014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546553044418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553044426, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546553045065, "dur":36695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546553081766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553081775, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707546553082384, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1707546553082396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553082408, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1707546553083057, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1707546553083090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553083094, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1707546553085556, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1707546553085569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553085574, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1707546553086157, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1707546553086225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553086229, "dur":4744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1707546553090990, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1707546553091002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553091008, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1707546553092390, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1707546553092402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553092406, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1707546553093117, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1707546553093129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553093133, "dur":471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1707546553093613, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1707546553093624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553093627, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1707546553094030, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1707546553094041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553094044, "dur":385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1707546553094437, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1707546553094447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553094468, "dur":343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1707546553094820, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1707546553094887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707546553094890, "dur":378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1707546553095276, "dur":192307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552592615, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552592616, "dur":3164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552595781, "dur":12379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1707546552608163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552608169, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1707546552608824, "dur":26860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552635688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552635713, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552636386, "dur":31348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552667739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552667747, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552668656, "dur":48041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552716701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552716707, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552717204, "dur":38138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552755347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552755355, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552756013, "dur":51664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552807684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552807692, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552808493, "dur":24607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552833105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552833113, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552834629, "dur":49454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552884087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552884093, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552887300, "dur":84423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552971726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546552971731, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546552973138, "dur":130959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546553104102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707546553104110, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707546553105398, "dur":182183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552592934, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552592935, "dur":2837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552595774, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1707546552595971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552596439, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1707546552598355, "dur":9624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1707546552607985, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552607995, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1707546552608940, "dur":37290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552646234, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552646242, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552646800, "dur":26936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552673741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552673981, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552674593, "dur":25255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552699853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552699861, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552700524, "dur":24493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552725023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552725032, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552725672, "dur":26220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552751896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552751952, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552753531, "dur":40367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552793904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552793913, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552794640, "dur":27333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552821979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552821995, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552822691, "dur":25415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552848109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546552848115, "dur":523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546552848648, "dur":268858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546553117508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707546553117512, "dur":468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707546553117987, "dur":169609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546552593146, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546552593146, "dur":2619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546552595767, "dur":12418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1707546552608187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546552608207, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1707546552608812, "dur":70729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552679543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546552679564, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552680215, "dur":93420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552773639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546552773652, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552774189, "dur":25339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552799533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546552799541, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552800692, "dur":23052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552823749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546552823757, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552824383, "dur":27186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552851575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546552851585, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552852186, "dur":99378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552951570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546552951579, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546552952603, "dur":196577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546553149184, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707546553149190, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707546553150412, "dur":137190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552592886, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552592887, "dur":2875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552595762, "dur":1656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1707546552597421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552597451, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1707546552598486, "dur":10226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1707546552608715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552608721, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1707546552609361, "dur":25721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552635088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552635269, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552635918, "dur":33625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552669549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552669557, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552670177, "dur":130837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552801018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552801093, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552802117, "dur":27850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552829973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552829982, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552830605, "dur":39755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552870366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552870375, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552871009, "dur":114524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552985539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546552985556, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546552986336, "dur":120474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546553106816, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707546553106824, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707546553107504, "dur":180107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546552593114, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546552593115, "dur":2639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546552595759, "dur":36026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1707546552631791, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546552632041, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1707546552632686, "dur":105749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546552738440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546552738448, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546552739134, "dur":43879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546552783018, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546552783036, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546552783758, "dur":111971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546552895734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546552895919, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546552896675, "dur":36012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546552932692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546552932700, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546552933251, "dur":38433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546552971689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546552971697, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546552972393, "dur":49380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546553021779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546553021787, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546553022402, "dur":64164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546553086570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546553086575, "dur":525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707546553087110, "dur":12972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1707546553100088, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707546553100097, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1707546553100760, "dur":186825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546552593268, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546552593269, "dur":2490, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546552595762, "dur":12501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1707546552608266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546552608271, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1707546552609074, "dur":46083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552655162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546552655169, "dur":3538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552658726, "dur":86174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552744905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546552744913, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552745648, "dur":24618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552770272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546552770280, "dur":642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552770935, "dur":25946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552796887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546552796896, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552797776, "dur":29794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552827576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546552827585, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552828405, "dur":49474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552877884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546552877891, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546552878487, "dur":149004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546553027497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546553027505, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546553028769, "dur":256626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546553285400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707546553285407, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707546553287514, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1707546553287517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546552593336, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546552593336, "dur":2443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546552595780, "dur":1648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1707546552597431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546552597465, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1707546552598426, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1707546552598794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546552598811, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1707546552599672, "dur":3063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707546552602741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546552602989, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707546552603962, "dur":39597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja.exe" }}
+,{ "pid":12345, "tid":9, "ts":1707546552643565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546552643572, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja.exe" }}
+,{ "pid":12345, "tid":9, "ts":1707546552644766, "dur":27405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707546552672177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546552672185, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707546552672791, "dur":157820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707546552830614, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546552830619, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707546552831183, "dur":24110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707546552855300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546552855308, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707546552855928, "dur":245512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707546553101444, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707546553101452, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707546553103304, "dur":184290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552593177, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552593177, "dur":2599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552595777, "dur":12267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1707546552608047, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552608129, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1707546552609081, "dur":43968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552653073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552653081, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552653566, "dur":25586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552679156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552679161, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552679653, "dur":47202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552726859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552726866, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552727453, "dur":23761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552751220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552751227, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552752969, "dur":25409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552778384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552778392, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552780841, "dur":39059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552819905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552819922, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552820605, "dur":26532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552847142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552847151, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552847998, "dur":28280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552876284, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546552876293, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546552876990, "dur":155528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546553032524, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546553032533, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546553033297, "dur":180086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546553213387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707546553213393, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707546553214405, "dur":73210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552593305, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552593305, "dur":2464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552595770, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1707546552595934, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552596426, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1707546552598966, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1707546552599106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552599110, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1707546552600323, "dur":54150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552654477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552654483, "dur":12347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552666889, "dur":37147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552704043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552704051, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552704659, "dur":51730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552756393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552756400, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552757228, "dur":28471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552785704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552785712, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552786339, "dur":29154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552815499, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552815508, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552817692, "dur":121943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552939641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546552939649, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546552942172, "dur":173748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546553115927, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707546553115936, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707546553116849, "dur":170751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552593425, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552593425, "dur":2330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552595759, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1707546552595931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552608177, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1707546552609324, "dur":42253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552651583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552651592, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552653251, "dur":25525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552678781, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552678791, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552679480, "dur":42321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552721807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552721816, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552722487, "dur":24000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552746491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552746499, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552747042, "dur":26161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552773208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552773216, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552773880, "dur":30389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552804283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552804292, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552805334, "dur":38549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552843886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552843892, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552844625, "dur":38868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552883498, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552883508, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552884164, "dur":76321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552960490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546552960498, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546552961197, "dur":177342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/game/Fruit Ninja_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546553138560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707546553138565, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/game/Fruit Ninja_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707546553139845, "dur":147775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707546553289267, "dur":1211, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1707546553309556, "dur": 352, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707546553309154, "dur": 769, "ph": "X", "name": "Write chrome-trace events", "args": {} },

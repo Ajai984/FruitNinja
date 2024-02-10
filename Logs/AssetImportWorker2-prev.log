@@ -15,7 +15,7 @@ E:/Github/FruitNinja
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49931
+52685
 Successfully changed project path to: E:/Github/FruitNinja
 E:/Github/FruitNinja
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ E:/Github/FruitNinja
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3132] Host "[IP] 192.168.79.187 [Port] 0 [Flags] 2 [Guid] 3497939480 [EditorId] 3497939480 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DGTD0PHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20668] Host "[IP] 192.168.43.187 [Port] 0 [Flags] 2 [Guid] 3012682401 [EditorId] 3012682401 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DGTD0PHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3132] Host "[IP] 192.168.79.187 [Port] 0 [Flags] 2 [Guid] 3497939480 [EditorId] 3497939480 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DGTD0PHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20668] Host "[IP] 192.168.43.187 [Port] 0 [Flags] 2 [Guid] 3012682401 [EditorId] 3012682401 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DGTD0PHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 57.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.34f1 (25266724e7bd)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/Hub/Editor/2021.3.34f1/Editor/Data/Resources/UnitySubsystems
@@ -68,178 +68,97 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Hub/Hub/Editor/2021.3.34f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Hub/Hub/Editor/2021.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity Hub/Hub/Editor/2021.3.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity Hub/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity Hub/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity Hub/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity Hub/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.007132 seconds.
+Registered in 0.007256 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 320 ms
+Android Extension - Scanning For ADB Devices 251 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.165 seconds
+- Completed reload, in  0.831 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1166ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (890ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (648ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (606ms)
+			SetupLoadedEditorAssemblies (494ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (435ms)
+				InitializePlatformSupportModulesInManaged (370ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
+				RefreshPlugins (13ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (72ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003660 seconds.
+Registered in 0.000411 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.373 seconds
+- Completed reload, in  0.639 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1374ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1176ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (775ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (662ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3074 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (46.4 KB). Loaded Objects now: 3538.
-Memory consumption went from 113.3 MB to 113.2 MB.
-Total: 3.346400 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.904300 ms  DeleteObjects: 0.076500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1907.720517 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573e0ff0dde7078cb1085cfe89f3443b') in 0.114139 seconds 
-Number of asset objects unloaded after import = 75
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/Kiwi.prefab
-  artifactKey: Guid(daf5bf23bf88e9548bb88bb82234b4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Kiwi.prefab using Guid(daf5bf23bf88e9548bb88bb82234b4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654c9dab8b692034b2e2c4c96f510e9e') in 0.024381 seconds 
-Number of asset objects unloaded after import = 75
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003098 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.563 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1564ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (640ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1305ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (855ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (188ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (740ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (22.7 KB). Loaded Objects now: 3548.
-Memory consumption went from 113.0 MB to 113.0 MB.
-Total: 3.057900 ms (FindLiveObjects: 0.236000 ms CreateObjectMapping: 0.114000 ms MarkObjects: 2.674900 ms  DeleteObjects: 0.031400 ms)
+Unloading 672 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (46.4 KB). Loaded Objects now: 1151.
+Memory consumption went from 49.1 MB to 49.1 MB.
+Total: 3.248900 ms (FindLiveObjects: 0.089300 ms CreateObjectMapping: 0.023000 ms MarkObjects: 3.042800 ms  DeleteObjects: 0.092300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -256,365 +175,244 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 234.224300 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 5467.639437 seconds.
+  path: Assets/Materials/Wood.mat
+  artifactKey: Guid(a3220b0efc681ca4ca31201b3a6ec487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d9505d5bf6676ff2cc75ec85a2e684') in 0.092338 seconds 
-Number of asset objects unloaded after import = 75
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Prefabs/Orange.prefab
-  artifactKey: Guid(a38a63b21b9417742b294b43a4294514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Orange.prefab using Guid(a38a63b21b9417742b294b43a4294514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ef6e23b9ca1beed7633136e550f96d') in 0.077946 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Lemon.prefab
-  artifactKey: Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Lemon.prefab using Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da000c50de8f5db5adf34a5bafd0038') in 0.012143 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 14.736311 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189048122d670c415fc3ce3c2713400b') in 0.013707 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47706746f6700ae63fe0065c5190c49') in 0.017957 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 26.237980 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66bcd51edef7105a51dc5cfe90160e7') in 0.020385 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaedbf18a9a22afb0da3956649f28d75') in 0.015484 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 4.812531 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e81e5b37d61213ded93fb71fbe38257') in 0.025680 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Lemon.prefab
-  artifactKey: Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Lemon.prefab using Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1fdfad4e1ad965b9d4ac9cdc848d55') in 0.022051 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 12.712893 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3033bb956346aa3e4886a3f694186c6b') in 0.016521 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ac89d2763c07f5ce0da202c8124e39') in 0.021022 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 4.589414 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f06bbc536e45af0a91cd21dd2ebca4') in 0.024625 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/Lemon.prefab
-  artifactKey: Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Lemon.prefab using Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dbef77c7725cf7b674aa44c871a58a') in 0.021458 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 7.806150 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd972bb99d4903bab8ab691fa6932d025') in 0.023282 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Lemon.prefab
-  artifactKey: Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Lemon.prefab using Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16646bc631b6ebc5d240abcd403c6d1') in 0.024501 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 3.192141 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14973df257c1c9ef6e7569b428cde170') in 0.010639 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfad986c95e8c8d29a8551db42b5c2c') in 0.009643 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 10.944293 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcf23265a4f756db0e509c362c92949') in 0.024370 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/Lemon.prefab
-  artifactKey: Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Lemon.prefab using Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc0632870c40b1c1d937f90a78f1c68') in 0.023983 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 3.992112 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b61bcf8f8d13bb3085ef69c328d0b44') in 0.022532 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/Materials/Wood.mat using Guid(a3220b0efc681ca4ca31201b3a6ec487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6aa968387780b5576539b10e7102a79f') in 0.143793 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Fonts/go3v2.ttf
+  artifactKey: Guid(9f3e8894fcc6f4f4b8f5c56877769e91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8707f7caca3717fdfcae0382bde86d1') in 0.021185 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/Fonts/go3v2.ttf using Guid(9f3e8894fcc6f4f4b8f5c56877769e91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '171258eb8b5242044c9387c49e06987c') in 0.027224 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 4.193660 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Fruit_Base.prefab
+  artifactKey: Guid(25504251438a6c1458bc142c3170ac68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d7a580a0a940d2f7f4777f55072809') in 0.019504 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/Prefabs/Fruit_Base.prefab using Guid(25504251438a6c1458bc142c3170ac68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '736e54f89b34996e645adcef4415c577') in 0.030315 seconds 
+Number of asset objects unloaded after import = 32
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000013 seconds.
+  path: Assets/Materials/Watermelon_Outside.mat
+  artifactKey: Guid(287057919f5f9e34ea00712865d26b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4d19383319069ea315c4c54078c228') in 0.019766 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/Materials/Watermelon_Outside.mat using Guid(287057919f5f9e34ea00712865d26b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9f52c83a13b37adfcf4fd338e61949f') in 0.009099 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 11.863870 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe368b1dec44fd441952477a4db289c') in 0.019442 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd716b5108c5db1815e5f82945b4a9b1') in 0.019516 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 41.266130 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1baf089498457fda9d71cc4964ee352') in 0.021728 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/Lemon.prefab
-  artifactKey: Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Lemon.prefab using Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d17155b843f170991dfb303f8bbfe70') in 0.021933 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 22.169373 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b44bf0c9ef29b71f9ab4f656437d7d') in 0.015912 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602da33be54c871dd1ec171d0f3ca8e3') in 0.020057 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 5.843851 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a775eb40db43866703f9b8b00204831') in 0.020572 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c29a7d31da6e23bb9e1c72cc67ee8c6') in 0.017999 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930c160af909dc59208eaa360ed7dfc0') in 0.023246 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0393e92a0466e5474f3c2fc250d7053a') in 0.012161 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 4.188856 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000018 seconds.
+  path: Assets/Physics/Bouncy.physicMaterial
+  artifactKey: Guid(170ea778e87c5c648b655669be0be144) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd598f9397f9ea07bf0cc58a257f3083a') in 0.010886 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdaeece8175a2bfd6924e68364d3aeb6') in 0.009861 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 2.200292 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f278bb2a3a7587b58c55890b41ebd9bb') in 0.024022 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/Lemon.prefab
-  artifactKey: Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Lemon.prefab using Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5c67fd4308883a0d7289105d178595') in 0.023269 seconds 
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 20.711424 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0bc7d9749121bbe0f2d4bcc5654681') in 0.022787 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/Physics/Bouncy.physicMaterial using Guid(170ea778e87c5c648b655669be0be144) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93979a52c26da2038e3d2c55b7b2526d') in 0.009555 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Lemon.prefab
-  artifactKey: Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Materials/Apple_Outside.mat
+  artifactKey: Guid(9e0945cdbd99c8644a182b3fcacd7823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Lemon.prefab using Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdbeb7dbcdd89ad499125b3eed9d86a') in 0.023340 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/Materials/Apple_Outside.mat using Guid(9e0945cdbd99c8644a182b3fcacd7823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4f97ab12cda035326e1cf6379657189') in 0.008651 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 7.888329 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa45e329f1942d537961d9927cf4222') in 0.010997 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55021b462f3cc7cc0bd38b6f5b456a23') in 0.012623 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20e5627d979715a3bb5770c99aa41de9') in 0.032977 seconds 
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/Watermelon.prefab
-  artifactKey: Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Materials/Lemon_Inside.mat
+  artifactKey: Guid(3c5fb0a73d2a2de4fa1ac35514b96d10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Watermelon.prefab using Guid(7523a29481c3e774685a3fd6e720b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718cb376131c931b5537b1ddf63cad08') in 0.015213 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/Materials/Lemon_Inside.mat using Guid(3c5fb0a73d2a2de4fa1ac35514b96d10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c0f9d8d5763d3b8b6f40c73e7d27652') in 0.009268 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 20.027543 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Watermelon.prefab
+  artifactKey: Guid(e80fcfc9f70e2c640a4d22775c8860de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66e4613fb4504179d0d100867c7f647') in 0.016747 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/Prefabs/Watermelon.prefab using Guid(e80fcfc9f70e2c640a4d22775c8860de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01410ca2e8e45b5b360994c4377eda4e') in 0.015716 seconds 
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Orange.prefab
+  artifactKey: Guid(024483f068cf0b145911881e8958d511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Orange.prefab using Guid(024483f068cf0b145911881e8958d511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44d2aa0e24be8f0bdd5cfcec49471947') in 0.018491 seconds 
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(2029e1e563546de449e26436fe25cd8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/GameManager.cs using Guid(2029e1e563546de449e26436fe25cd8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f91c776a8916b436df0189cf1591ca2') in 0.014863 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ce9acd3e291a3a180fedf3045d69045') in 0.011792 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Kiwi_Outside.mat
+  artifactKey: Guid(8e50694855f8bc948a4d139463a681f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Kiwi_Outside.mat using Guid(8e50694855f8bc948a4d139463a681f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eed3ef897b4cc786a14d97e01141cc93') in 0.010385 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/Bomb.mat
+  artifactKey: Guid(8236b72fea734c14ab5d67d4de95bf16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Bomb.mat using Guid(8236b72fea734c14ab5d67d4de95bf16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb82b3a01c32c58ad6c4e079cf67c14f') in 0.009746 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Watermelon_Sliced.blend
+  artifactKey: Guid(a633a3d36eec15f4fa5da5bb26cae2c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Watermelon_Sliced.blend using Guid(a633a3d36eec15f4fa5da5bb26cae2c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a163fdcd00ad1470cc07c60b5e18cb78') in 0.047488 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00d6f673c5da3a6eed60da9df7080cce') in 0.015390 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Lemon.prefab
-  artifactKey: Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Lemon.prefab using Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31f2235ea8462bc16ef3607964d0bdb') in 0.015577 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd191c94903b40303729ba176dcdab49c') in 0.011170 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 48.927236 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/Fruit.cs
+  artifactKey: Guid(e3b08cbe8beb8eb4280a7535cb1136be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d66da920a2b7c4a08134d9df7992f72') in 0.011787 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/Scripts/Fruit.cs using Guid(e3b08cbe8beb8eb4280a7535cb1136be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '679907ba0d4831ad6ee07c941f099831') in 0.009626 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Lemon.prefab
-  artifactKey: Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Watermelon_Sliced.blend1
+  artifactKey: Guid(35315c516d6e04242a59fcf4e8de771c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Lemon.prefab using Guid(5ab6f44d897d3cb458b783995e413bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b22341af22e4732842a2ba1c4757cb') in 0.016755 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/Models/Watermelon_Sliced.blend1 using Guid(35315c516d6e04242a59fcf4e8de771c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '638cd3ab4cf5a55c5bdd800de436c3e8') in 0.008941 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 23.803407 seconds.
-  path: Assets/Prefabs/Apple.prefab
-  artifactKey: Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Apple.prefab using Guid(17615d7aa8a527942abd1b02660073fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3473a00768b195316250bc2635e3b3cf') in 0.051467 seconds 
-Number of asset objects unloaded after import = 83
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0259f475df9ae3ac3e1aa0ccbb75bec5') in 0.011614 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Orange.prefab
-  artifactKey: Guid(a38a63b21b9417742b294b43a4294514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/BombWick.mat
+  artifactKey: Guid(fcd332537d292144885965d6cf711959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Orange.prefab using Guid(a38a63b21b9417742b294b43a4294514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c0fa700612c99b2a6b3be5a98d7433') in 0.020702 seconds 
-Number of asset objects unloaded after import = 83
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Materials/BombWick.mat using Guid(fcd332537d292144885965d6cf711959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2d71808dfedb7d2f37c37c60f25d1ee') in 0.009650 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9257a4bc28ec721faf9826d84dd6769d') in 0.013043 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bf963415c79eb116b3bcd614c791d4f') in 0.011059 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e88467f79907454fcba9f4563299958') in 0.013488 seconds 
+Number of asset objects unloaded after import = 3
